@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>ePortfolio - Skills</title>
+        <link rel="stylesheet" href="portfolio_base.css">
+        <link rel="stylesheet" href="portfolio_layout.css">
+    </head>
+
+    <body>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">Homepage</a>
+            <a href="contact.html">Contact</a>
+            <a href="goals.html">Goals</a>
+            <a href="skills.html" class="active">Skills</a>
+            <a href="resume.html">Resume</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <h1>Skills</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus urna sit amet turpis dictum, vel blandit
+            turpis congue. Etiam porta mi aliquet semper porta. Curabitur pharetra ultrices diam sit amet efficitur. Nullam
+            sit amet molestie elit, in fringilla massa. Aliquam dapibus, lectus eget viverra bibendum, ante justo aliquam
+            metus, sit amet ultrices nisl lacus in ligula. Vivamus blandit dui et elit rhoncus luctus. Pellentesque semper
+            urna leo, at hendrerit velit tincidunt a. Praesent quis arcu at velit aliquam tincidunt nec vitae turpis. Aenean
+            maximus maximus turpis, vitae semper tortor imperdiet et. Cras fermentum, turpis eu tincidunt vestibulum, tellus
+            eros iaculis mi, a accumsan dui lectus et quam. </p>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
