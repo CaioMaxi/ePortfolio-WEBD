@@ -18,7 +18,7 @@ float: left;
 display: block;
 color: #f2f2f2;
 text-align: center;
-padding: 14px 16px;
+padding: 16px 16px;
 text-decoration: none;
 font-size: 17px;
 }
@@ -79,7 +79,7 @@ textarea {
 
 /* Source: https://medium.com/@egwuchinedu69/how-to-send-contact-form-data-to-an-email-address-without-server-side-language-adeec579c586  */
 button {
-    background-color: #4CAF50;
+    background-color: #2c7edb;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -89,13 +89,13 @@ button {
 
 /* Source: https://medium.com/@egwuchinedu69/how-to-send-contact-form-data-to-an-email-address-without-server-side-language-adeec579c586  */
 button:hover {
-    background-color: #45a049;
+    background-color: #0043fc;
 }
 
 /* Source: https://medium.com/@egwuchinedu69/how-to-send-contact-form-data-to-an-email-address-without-server-side-language-adeec579c586  */
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #2c7edb18;
     padding: 20px;
 }   
 
@@ -124,6 +124,10 @@ button:hover {
         display: block;
         text-align: left;
     }
+
+    #fullNameResume {
+        text-align: center;
+    }
 }
 
 /* TABLET */
@@ -131,25 +135,36 @@ button:hover {
     #resumeBody{
         display: grid;
         grid-template-columns: auto auto;
-        gap: 10px;
+        gap: 30px;
         width: 65%;
         margin: auto;
     }
 
-    #professionalSummary5 {
+    #professionalSummary {
+        grid-column: 1;
+        grid-row-start: 2;
+    }
+
+    #professionalEducation {
+        grid-column: 1;
+    }
+
+    #professionalExperience {
+        grid-column: 2;
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+
+    #professionalSkills {
+        grid-column: 1;
+    }
+
+    #fullNameResume {
+        text-align: center;
+        grid-row-start: 1;
         grid-column: span 2;
-        justify-self: center;
+        padding-top: 15px;
     }
-
-    #professionalSummary0 {
-        grid-column: span 2;
-        justify-items: center;
-    }
-
-    #professionalSummary2 {
-        grid-row: span 4;
-    }
-
 }
 
 /* DESKTOP */
